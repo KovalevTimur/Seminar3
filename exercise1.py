@@ -1,11 +1,9 @@
-a = float(input('Введите первое число: '))
+a = float(input("Введите первое число: "))
 
-b = float(input('Введите второе число: '))
+b = float(input("Введите второе число: "))
 
-if abs(a-b) == 100: 
+if abs(a-b) >= 100:
 
-   print('Yes')
+   print("Yes")
 
-else: 
-
-   print('No')
+else: print("No")
